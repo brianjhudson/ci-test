@@ -9,3 +9,7 @@ test('bar', async t => {
 
 	t.is(await bar, 'bar');
 });
+
+test('not failure', t => {
+    t.is(2, 2);
+})
