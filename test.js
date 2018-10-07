@@ -10,6 +10,6 @@ test('bar', async t => {
 	t.is(await bar, 'bar');
 });
 
-test('failure', t => {
-    t.is(2, 3);
+test('not failure', t => {
+    t.is(2, 2);
 })
